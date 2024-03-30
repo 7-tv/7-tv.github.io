@@ -26,21 +26,17 @@ background-size: 800px;
 	background-position:center;
 	background-repeat:no-repeat;
 }
-.vkroll {
-	width:60px;
-	height:60px;
-	background:url(/assets/img/vk.svg);
-	background-position:center;
-	display: block;
-	background-repeat:no-repeat;
-	background-size:60px;
-	bottom: 0;
-	left: 0;
-	position:absolute;
-        align-items: center;
-        overflow: auto;
-}
+	.vk2022 { position:absolute; left: 50%; top:50%;  margin-left: -30px;  margin-top: 300px;z-index: 50;}
+a.vkrol2022 {
+    background: url(vk.png);
+    display: block; /*  Рисунок как блочный элемент */
+    width: 60px; /* Ширина рисунка */
+    height: 60px; /*  Высота рисунка */
+   }
 </style>
 </head>
-<div class='parent'></div>
-<div class="vkroll"></div>
+<div class='parent'>
+	<div class="vk2022">
+		<a href="http://www.vk.com/itk_semyorka" class="vkrol2022"></a>
+	</div>
+</div>
